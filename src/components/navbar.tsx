@@ -13,7 +13,7 @@ export function Navbar() {
   return (
     <header className="sticky top-0 lg:relative">
       <nav className="flex items-center justify-between p-4 lg:container lg:p-3">
-        <a href="/" className="z-50 text-xl font-semibold text-primary">
+        <a href="/" className="z-50 font-semibold text-primary">
           DispatchNub
         </a>
         <div className="hidden items-center justify-center gap-4 py-4 lg:flex">

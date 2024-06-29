@@ -29,8 +29,8 @@ export const MobileNav = () => {
               {link.name}
             </Link>
           ))}
-          <div className="space-x-4 pt-6">
-            <Button>
+          <div className="flex items-center gap-4 pt-6">
+            <Button asChild>
               <a href="https://app.dispatchnub.com">Login</a>
             </Button>
             <ThemeToggle />
