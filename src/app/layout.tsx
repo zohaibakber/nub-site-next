@@ -5,6 +5,8 @@ import { ThemeProvider } from "@/components/theme-probider";
 import { Navbar } from "@/components/navbar";
 import { cn } from "@/lib/utils";
 import { GridPattern } from "@/components/grid-patter";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -39,6 +41,8 @@ export default function RootLayout({
             )}
           />
           {children}
+          <Analytics />
+          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>
