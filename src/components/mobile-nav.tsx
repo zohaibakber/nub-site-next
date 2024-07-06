@@ -30,7 +30,7 @@ export const MobileNav = () => {
             </Link>
           ))}
           <div className="flex items-center gap-4 pt-6">
-            <Button asChild>
+            <Button size={"sm"} asChild>
               <a href="https://app.dispatchnub.com">Login</a>
             </Button>
             <ThemeToggle />

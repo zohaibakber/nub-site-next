@@ -49,11 +49,11 @@ export function HeroSection() {
       </motion.p>
       <motion.div variants={childVariants} className="space-x-4">
         <Button size={"sm"} asChild>
-          <a href="https://app.dispatchnub.com">Start dispatching </a>
+          <a href="https://app.dispatchnub.com">Start Dispatching </a>
         </Button>
         <Button size={"sm"} variant={"secondary"} asChild>
           <Link prefetch={false} href="/contact">
-            Contact us
+            Contact Us
             <ChevronRight className="ml-2 h-4 w-4" />
           </Link>
         </Button>

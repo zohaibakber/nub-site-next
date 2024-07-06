@@ -1,6 +1,6 @@
 "use client";
 
-import { buttonVariants } from "./ui/button";
+import { Button } from "./ui/button";
 import { ThemeToggle } from "./theme-switcher";
 import { usePathname } from "next/navigation";
 import { navLinks } from "@/lib/links";
@@ -34,12 +34,9 @@ export function Navbar() {
         <MobileNav />
         <div className="hidden items-center gap-2 lg:flex">
           <ThemeToggle />
-          <a
-            href="https://app.dispatchnub.com"
-            className={cn(buttonVariants())}
-          >
-            Login
-          </a>
+          <Button size={"sm"} asChild>
+            <a href="https://app.dispatchnub.com">Login</a>
+          </Button>
         </div>
       </nav>
     </header>
